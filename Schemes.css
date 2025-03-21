@@ -1,0 +1,141 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f4; 
+ color: #333; 
+}
+.container {
+ width: 90%;
+ margin: 0 auto;
+}
+header {
+ background-color: #eb5d5d;
+ color: #a01010;
+ padding: 20px 0;
+}
+header h1 {
+ font-size: 24px;
+}
+nav ul {
+ list-style: none;
+}
+nav ul li {
+ display: inline-block;
+ margin-right: 20px;
+}
+nav ul li a {
+ text-decoration: none;
+ color:#fff;
+ font-weight: bold;
+}
+#schemes {
+ padding: 50px 0;
+}
+#schemes h2 {
+ text-align: center;
+ margin-bottom: 30px;
+}
+.card {
+ background-color: #fff;
+ padding: 20px;
+ margin-bottom: 20px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+ margin: 10px;
+ color: #333; /* Scheme name color */
+}
+.scheme-link {
+ display: block;
+ margin: 10px;
+ text-decoration: none;
+ color: #333; /* Link color */
+ font-weight: bold;
+}
+.scheme-link:hover {
+ color: #555; /* Link hover color */
+}
+.card {
+ background-color: #fff;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ overflow: hidden;
+}
+.card img {
+ width: 100%;
+ height: auto;
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+}
+.card h3 {
+ font-size: 18px;
+ margin:5px;
+}
+.card p {
+ font-size: 14px;
+ color: #666;
+ margin-bottom: 10px;
+}
+.scheme-link {
+ display: inline-block;
+ 
+ color: #007bff;
+ text-decoration: none;
+}
+.card-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between; 
+ margin:25px;/* Adjust alignment as needed */
+}
+.card {
+ width: 355px; /* 20% width for each card with 20px margin between them */
+ margin-bottom: 20px;
+ background-color: #fff;
+ border-radius: 8px;
+ box-shadow: 0 2px 4px #0000001a;
+ overflow: hidden;
+ margin:25px;
+ height: 345px;
+ text-align: center;
+ 
+}
+.marg{
+ margin:5px;
+}
+.mar{
+ margin:55px;
+}
+.card img {
+ width: 100%;
+ height: auto;
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+ padding:5px;
+}
+.card h3 {
+ font-size: 18px;
+ margin: 5px ;
+}
+.card p {
+ font-size: 14px;
+ color: #666;
+ margin: 5px;
+}
+.scheme-link {
+ display: inline-block;
+ color: #007bff;
+ text-decoration: none;
+ padding:5px;
+ margin:5px;
+}
+.dis{
+ display: flex;
+ margin:25px;
+ 
+}
